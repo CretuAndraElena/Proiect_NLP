@@ -43,7 +43,7 @@ def parse_html(link):
     marime = soup.find('span', attrs={'class': 'original-size'})
     marime = marime.text.strip()
 
-    categorie = 'barbati'
+    categorie = 'copii'
 
     return (brand, nume, pret_nou, pret_vechi, marime, categorie)
 
@@ -55,7 +55,7 @@ def scriere_in_fisier(produs):
 
 #Laboratorul 3
 for i in range(1,11):
-    link = 'https://www.sportvision.ro/incaltaminte/barbati/page-'+ str(i)
+    link = 'https://www.sportvision.ro/produse/baieti+fete/page-'+ str(i)
     quote_pages = extragere_linkuri_produse(link)
 
     #extragere informatii din  link-uri
