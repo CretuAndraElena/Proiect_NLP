@@ -67,7 +67,8 @@ for word in words:
 
 # Import the json module
 import json
-with open('list.json', 'w') as outfile:
+
+with open('Data/list.json', 'w') as outfile:
         json.dump(data, outfile)
 
 
