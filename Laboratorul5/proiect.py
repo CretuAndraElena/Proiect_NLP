@@ -38,35 +38,37 @@ occupations_domain = s.hypernym_paths()[0][4]
 s = wordnet.synsets('football')[0]
 sports_domain = s.hypernym_paths()[0][7]
 
-animals = ["animals"]
-fruits = ["fruits"]
-vegetables = ["vegetables"]
-colors = ["colors"]
-occupations = ["occupations"]
-sports = ["sports"]
+data = {}
+data['animals']=[]
+data['fruits']=[]
+data['vegetables']=[]
+data['colors']=[]
+data['occupations']=[]
+data['sports']=[]
 
 for word in words:
     s = wordnet.synsets(word)
     if s:
         synonyms_antonyms = get_synonyms_antonyms(word)
-        synonyms = ("synonyms", synonyms_antonyms[0])
-        antonyms = ("antonyms", synonyms_antonyms[1])
-        definition = ("definition", get_definitions(word))
-        translate = ("translate", [])
-        question = [word, definition, synonyms, antonyms, translate]
+        question = { "word": word, "definition" : get_definitions(word), "synonyms" : synonyms_antonyms[0], "antonyms" : synonyms_antonyms[1], "translate" : []}
 
         if any(animal_domain in sublist for sublist in s[0].hypernym_paths()):
-           animals.append(question)
+           data['animals'].append(question)
         if any(fruits_domain in sublist for sublist in s[0].hypernym_paths()):
-            fruits.append(question)
+            data['fruits'].append(question)
         if any(vegetables_domain in sublist for sublist in s[0].hypernym_paths()):
-            vegetables.append(question)
+            data['vegetables'].append(question)
         if any(colors_domain in sublist for sublist in s[0].hypernym_paths()):
-            colors.append(question)
+            data['colors'].append(question)
         if any(occupations_domain in sublist for sublist in s[0].hypernym_paths()):
-            occupations.append(word)
+            data['occupations'].append(word)
         if any(sports_domain in sublist for sublist in s[0].hypernym_paths()):
-            sports.append(question)
+            data['sports'].append(question)
+
+# Import the json module
+import json
+with open('list.json', 'w') as outfile:
+        json.dump(data, outfile)
 
 
 
