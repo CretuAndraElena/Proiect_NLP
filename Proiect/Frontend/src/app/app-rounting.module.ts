@@ -6,6 +6,7 @@ import { TestGeneratorComponent } from './test/components/test-generator/test-ge
 import { AuthGuard } from './shared/guards/auth.guard';
 import { StatsComponent } from './stats/components/stats/stats.component';
 import { QuestionsComponent } from './test/components/questions/questions.component';
+import { QuestionComponent } from './test/components/questions/question/question.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -19,7 +20,7 @@ const routes: Routes = [
   {
     path: 'newtest',
     component: QuestionsComponent,
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard],
   },
   { path: 'statistics', component: StatsComponent, canActivate: [AuthGuard] },
   {

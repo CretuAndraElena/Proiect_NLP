@@ -1,41 +1,52 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 <div class="container">
-  <div class="ui segment">
-    <div class="ui divider"></div>
-    <form class="ui form" #registerForm="ngForm">
-      <div class="ui input left icon">
-        <input type="email" placeholder="Username" email required name="username" ngModel>
-        <i class="open envelope outline icon"></i>
-      </div>
-      <div class="ui input left icon">
-        <input type="password" placeholder="Password" #password="ngModel" required minlength="6" name="password"
-          ngModel>
-        <i class="privacy icon"></i>
-      </div>
-      <div class="ui input left icon">
-        <input type="password" placeholder="Confirm password" required minlength="6"
-          name="confpass" ngModel>
-        <i class="privacy icon"></i>
-      </div>
-      <button class="ui fluid green button" (click)="submit()"
-        [ngClass]="{'disabled': registerForm.invalid, 'loading': loading}">
-        Register
-      </button>
-      <sui-message *ngIf="error" class="error">
-        <div class="header">
-          Oops!
+  <div id="login-row" class="row justify-content-center align-items-center">
+    <div id="login-column" class="col-md-6">
+      <div class="box">
+        <h3>Register!</h3>
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+        <div class="shape4"></div>
+        <div class="shape5"></div>
+        <div class="shape6"></div>
+        <div class="shape7"></div>
+        <div class="float">
+          <form class="form" action="">
+            <div class="form-group">
+              <input type="email" name="username" id="username" class="form-control" ngModel placeholder="Username"
+                required email ngModel>
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" name="password" id="password" class="form-control" ngModel
+                required minlength="6">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Confirm password" required minlength="6" name="confpass"
+                class="form-control" ngModel>
+              <i class="privacy icon"></i>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-info btn-md" (click)="submit()"
+                [ngClass]="{'disabled': registerForm.invalid, 'loading': loading}">
+                Register
+              </button>
+            </div>
+            <sui-message *ngIf="error" class="error">
+              <div class="header">
+                Oops!
+              </div>
+              <p>Seems something went wrong!</p>
+            </sui-message>
+          </form>
         </div>
-        <p>Seems something went wrong!</p>
-      </sui-message>
-      <sui-message *ngIf="success" class="success">
-        <div class="header">
-          Success!
-        </div>
-        <p>The account was created. Now you can <a [routerLink]="['/login']">login</a>.</p>
-      </sui-message>
-      <div class="ui divider"></div>
-      <div class="texts">
-        <a [routerLink]="['/login']">I already have an account.</a>
       </div>
-    </form>
+    </div>
   </div>
+</div>
+<div class="redirect">
+  <a href="/login">I already have an account. Log in here.</a>
 </div>
