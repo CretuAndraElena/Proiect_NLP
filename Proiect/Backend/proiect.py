@@ -1,26 +1,30 @@
 from nltk.corpus import wordnet
-from googletrans import Translator
-from translate import Translator
+
+#get words
+# extract word from wornet
+wordlist = [x.name().split(".")[0] for x in wordnet.all_synsets()]
+lines = [line.rstrip('\n') for line in open('Data/frequent_words.txt')]
+words = [x for x in wordlist if x in lines]
+words = list(set(words))
+
+#get translate
+lines = [line.rstrip('\n') for line in open('Data/translate.txt')]
+translate = dict(line.split(',') for line in lines)
 
 def get_synonyms_antonyms(word):
     synonyms = [] 
     antonyms = [] 
     
     for syn in wordnet.synsets(word): 
-        for l in syn.lemmas(): 
-            synonyms.append(l.name()) 
+        for l in syn.lemmas():
+            synonyms.append(l.name().lower()) 
             if l.antonyms(): 
-                antonyms.append(l.antonyms()[0].name()) 
+                antonyms.append(l.antonyms()[0].name().lower()) 
     return(synonyms,antonyms)
     
 def get_definitions(word):
     syns = wordnet.synsets(word)
-    return syns[0].definition()
-
-def translate_text(text):
-    translator= Translator(to_lang="ro")
-    translation = translator.translate(text)
-    return translation
+    return syns[0].definition().title()
 
 def get_question(word):
     synonyms_antonyms = get_synonyms_antonyms(word)
@@ -28,12 +32,9 @@ def get_question(word):
                 "definition" : get_definitions(word), 
                 "synonyms" : list(set(synonyms_antonyms[0])), 
                 "antonyms" : list(set(synonyms_antonyms[1])), 
-                "translate" : translate_text(word)
+                "translate" : translate.get(word)
                 }
     return question
-
-# extract word from wornet
-words = [x.name().split(".")[0] for x in wordnet.all_synsets()]
 
 # get main domains
 s = wordnet.synsets('dog')[0]
