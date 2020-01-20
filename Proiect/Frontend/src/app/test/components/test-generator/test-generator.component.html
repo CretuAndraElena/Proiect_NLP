@@ -6,20 +6,25 @@
 
   <div class="col-md-4">
     <form>
-      <h2>Question</h2>
+      {{multiple_question.questions[0].question}}
       <div class="form-check">
         <label>
-          <input type="radio" name="radio" checked> <span class="label-text">Option 01</span>
+          <input type="radio" name="radio" checked> <span class="label-text">{{multiple_question.questions[0].corect}}</span>
         </label>
       </div>
       <div class="form-check">
         <label>
-          <input type="radio" name="radio"> <span class="label-text">Option 02</span>
+          <input type="radio" name="radio"> <span class="label-text">{{multiple_question.questions[0].wrong_answers[0]}}</span>
         </label>
       </div>
       <div class="form-check">
         <label>
-          <input type="radio" name="radio"> <span class="label-text">Option 03</span>
+          <input type="radio" name="radio"> <span class="label-text">{{multiple_question.questions[0].wrong_answers[1]}}</span>
+        </label>
+      </div>
+      <div class="form-check">
+        <label>
+          <input type="radio" name="radio"> <span class="label-text">{{multiple_question.questions[0].wrong_answers[2]}}</span>
         </label>
       </div>
       <div class="form-check">

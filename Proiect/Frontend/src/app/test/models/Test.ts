@@ -1,12 +1,12 @@
 export class Test {
-  type: boolean;
+  type: number; // 1 - multiple_choise ; 0 - input
   questions: Array<Question>;
 }
 
 export class Question {
-  body: string;
-  goodAnswer: string;
-  answers?: Array<Answer>;
+  question: string;
+  corect: string;
+  wrong_answers?: Array<Answer>;
   category: string;
 }
 
