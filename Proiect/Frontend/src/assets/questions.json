@@ -1,0 +1,1728 @@
+{
+    "multiple_choice": [
+        {
+            "question": "A Form Of Football Played With An Oval Ball",
+            "category": "sports",
+            "corect": "rugby",
+            "wrong_answers": [
+                "athletics",
+                "skiing",
+                "football"
+            ]
+        },
+        {
+            "question": "A Football Game In Which Two Teams Of 11 Players Try To Kick Or Head A Ball Into The Opponents' Goal",
+            "category": "sports",
+            "corect": "soccer",
+            "wrong_answers": [
+                "basketball",
+                "volleyball",
+                "surfing"
+            ]
+        },
+        {
+            "question": "The Sport Of Traveling On A Bicycle Or Motorcycle",
+            "category": "sports",
+            "corect": "cycling",
+            "wrong_answers": [
+                "soccer",
+                "racing",
+                "swimming"
+            ]
+        },
+        {
+            "question": "A Game Played On A Large Open Course With 9 Or 18 Holes; The Object Is Use As Few Strokes As Possible In Playing All The Holes",
+            "category": "sports",
+            "corect": "golf",
+            "wrong_answers": [
+                "jumping",
+                "basketball",
+                "golf"
+            ]
+        },
+        {
+            "question": "The Act Of Participating In An Athletic Competition In Which You Must Jump",
+            "category": "sports",
+            "corect": "jumping",
+            "wrong_answers": [
+                "skating",
+                "golf",
+                "fishing"
+            ]
+        },
+        {
+            "question": "The Sport Of Siting On The Back Of A Horse While Controlling Its Movements",
+            "category": "sports",
+            "corect": "riding",
+            "wrong_answers": [
+                "sport",
+                "baseball",
+                "soccer"
+            ]
+        },
+        {
+            "question": "A Game Played On A Court By Two Opposing Teams Of 5 Players; Points Are Scored By Throwing The Ball Through An Elevated Horizontal Hoop",
+            "category": "sports",
+            "corect": "basketball",
+            "wrong_answers": [
+                "basketball",
+                "skating",
+                "racing"
+            ]
+        },
+        {
+            "question": "Fighting With The Fists",
+            "category": "sports",
+            "corect": "boxing",
+            "wrong_answers": [
+                "soccer",
+                "surfing",
+                "golf"
+            ]
+        },
+        {
+            "question": "Any Of Various Games Played With A Ball (Round Or Oval) In Which Two Teams Try To Kick Or Carry Or Propel The Ball Into Each Other'S Goal",
+            "category": "sports",
+            "corect": "football",
+            "wrong_answers": [
+                "baseball",
+                "athletics",
+                "fishing"
+            ]
+        },
+        {
+            "question": "A Ball Game Played With A Bat And Ball Between Two Teams Of Nine Players; Teams Take Turns At Bat Trying To Score Runs",
+            "category": "sports",
+            "corect": "baseball",
+            "wrong_answers": [
+                "racing",
+                "skiing",
+                "surfing"
+            ]
+        },
+        {
+            "question": "The Sport Of Engaging In Contests Of Speed",
+            "category": "sports",
+            "corect": "racing",
+            "wrong_answers": [
+                "golf",
+                "sport",
+                "riding"
+            ]
+        },
+        {
+            "question": "The Sport Of Riding A Surfboard Toward The Shore On The Crest Of A Wave",
+            "category": "sports",
+            "corect": "surfing",
+            "wrong_answers": [
+                "basketball",
+                "fishing",
+                "athletics"
+            ]
+        },
+        {
+            "question": "The Sport Of Gliding On Skates",
+            "category": "sports",
+            "corect": "skating",
+            "wrong_answers": [
+                "cycling",
+                "basketball",
+                "volleyball"
+            ]
+        },
+        {
+            "question": "An Active Diversion Requiring Physical Exertion And Competition",
+            "category": "sports",
+            "corect": "sport",
+            "wrong_answers": [
+                "tennis",
+                "basketball",
+                "swimming"
+            ]
+        },
+        {
+            "question": "A Game In Which Two Teams Hit An Inflated Ball Over A High Net Using Their Hands",
+            "category": "sports",
+            "corect": "volleyball",
+            "wrong_answers": [
+                "cycling",
+                "volleyball",
+                "skating"
+            ]
+        },
+        {
+            "question": "The Act Of Swimming; :",
+            "category": "sports",
+            "corect": "swimming",
+            "wrong_answers": [
+                "skating",
+                "surfing",
+                "rugby"
+            ]
+        },
+        {
+            "question": "A Game Played With Rackets By Two Or Four Players Who Hit A Ball Back And Forth Over A Net That Divides The Court",
+            "category": "sports",
+            "corect": "tennis",
+            "wrong_answers": [
+                "swimming",
+                "rugby",
+                "sport"
+            ]
+        },
+        {
+            "question": "A Sport In Which Participants Must Travel On Skis",
+            "category": "sports",
+            "corect": "skiing",
+            "wrong_answers": [
+                "jumping",
+                "rugby",
+                "baseball"
+            ]
+        },
+        {
+            "question": "An Active Diversion Requiring Physical Exertion And Competition",
+            "category": "sports",
+            "corect": "athletics",
+            "wrong_answers": [
+                "rugby",
+                "jumping",
+                "volleyball"
+            ]
+        },
+        {
+            "question": "The Act Of Someone Who Fishes As A Diversion",
+            "category": "sports",
+            "corect": "fishing",
+            "wrong_answers": [
+                "basketball",
+                "swimming",
+                "sport"
+            ]
+        },
+        {
+            "question": "Choice the corect color : black",
+            "category": "colors",
+            "corect": "black",
+            "wrong_answers": [
+                "gray",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "question": "Choice the corect color : amber",
+            "category": "colors",
+            "corect": "amber",
+            "wrong_answers": [
+                "coral",
+                "yellow",
+                "ebony"
+            ]
+        },
+        {
+            "question": "Choice the corect color : ebony",
+            "category": "colors",
+            "corect": "ebony",
+            "wrong_answers": [
+                "blue",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "question": "Choice the corect color : color",
+            "category": "colors",
+            "corect": "color",
+            "wrong_answers": [
+                "color",
+                "red",
+                "red"
+            ]
+        },
+        {
+            "question": "Choice the corect color : pink",
+            "category": "colors",
+            "corect": "pink",
+            "wrong_answers": [
+                "red",
+                "gray",
+                "red"
+            ]
+        },
+        {
+            "question": "Choice the corect color : green",
+            "category": "colors",
+            "corect": "green",
+            "wrong_answers": [
+                "color",
+                "amber",
+                "green"
+            ]
+        },
+        {
+            "question": "Choice the corect color : brown",
+            "category": "colors",
+            "corect": "brown",
+            "wrong_answers": [
+                "pink",
+                "color",
+                "amber"
+            ]
+        },
+        {
+            "question": "Choice the corect color : purple",
+            "category": "colors",
+            "corect": "purple",
+            "wrong_answers": [
+                "color",
+                "brown",
+                "green"
+            ]
+        },
+        {
+            "question": "Choice the corect color : yellow",
+            "category": "colors",
+            "corect": "yellow",
+            "wrong_answers": [
+                "ebony",
+                "brown",
+                "pink"
+            ]
+        },
+        {
+            "question": "Choice the corect color : coral",
+            "category": "colors",
+            "corect": "coral",
+            "wrong_answers": [
+                "blue",
+                "coral",
+                "amber"
+            ]
+        },
+        {
+            "question": "Choice the corect color : gray",
+            "category": "colors",
+            "corect": "gray",
+            "wrong_answers": [
+                "coral",
+                "green",
+                "coral"
+            ]
+        },
+        {
+            "question": "Choice the corect color : red",
+            "category": "colors",
+            "corect": "red",
+            "wrong_answers": [
+                "green",
+                "coral",
+                "purple"
+            ]
+        },
+        {
+            "question": "Choice the corect color : blue",
+            "category": "colors",
+            "corect": "blue",
+            "wrong_answers": [
+                "blue",
+                "pink",
+                "purple"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : domestic",
+            "category": "occupations",
+            "corect": "house_servant",
+            "wrong_answers": [
+                "doorman",
+                "judge",
+                "ambassador"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : mate",
+            "category": "occupations",
+            "corect": "officer",
+            "wrong_answers": [
+                "ostiary",
+                "adjudicate",
+                "steer"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : guide",
+            "category": "occupations",
+            "corect": "template",
+            "wrong_answers": [
+                "ship's_officer",
+                "marine",
+                "guide"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : marine",
+            "category": "occupations",
+            "corect": "nautical",
+            "wrong_answers": [
+                "host",
+                "maneuver",
+                "jurist"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : officer",
+            "category": "occupations",
+            "corect": "military_officer",
+            "wrong_answers": [
+                "old_hand",
+                "recorder",
+                "leatherneck"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : commander",
+            "category": "occupations",
+            "corect": "air_force_officer",
+            "wrong_answers": [
+                "manoeuver",
+                "senior_pilot",
+                "help"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : navigator",
+            "category": "occupations",
+            "corect": "sailing_master",
+            "wrong_answers": [
+                "martes_pennanti",
+                "cowpuncher",
+                "guide"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : clerk",
+            "category": "occupations",
+            "corect": "shop_assistant",
+            "wrong_answers": [
+                "assistant",
+                "fudge",
+                "volunteer"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : pilot",
+            "category": "occupations",
+            "corect": "pilot_film",
+            "wrong_answers": [
+                "guess",
+                "prescribed",
+                "self-employed_person"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : volunteer",
+            "category": "occupations",
+            "corect": "unpaid",
+            "wrong_answers": [
+                "ex-serviceman",
+                "cowboy",
+                "guidebook"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : captain",
+            "category": "occupations",
+            "corect": "maitre_d'hotel",
+            "wrong_answers": [
+                "ecumenical",
+                "approximate",
+                "prole"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : cook",
+            "category": "occupations",
+            "corect": "fudge",
+            "wrong_answers": [
+                "domestic",
+                "domesticated",
+                "domestic"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : powell",
+            "category": "occupations",
+            "corect": "cecil_frank_powell",
+            "wrong_answers": [
+                "porter's_beer",
+                "original",
+                "manoeuver"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : judge",
+            "category": "occupations",
+            "corect": "estimate",
+            "wrong_answers": [
+                "door_guard",
+                "captain_cook",
+                "doer"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : freelance",
+            "category": "occupations",
+            "corect": "free_lance",
+            "wrong_answers": [
+                "pekan",
+                "gatekeeper",
+                "free-lance"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : assistant",
+            "category": "occupations",
+            "corect": "adjunct",
+            "wrong_answers": [
+                "unpaid_worker",
+                "automatic_washer",
+                "skipper"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : veteran",
+            "category": "occupations",
+            "corect": "ex-serviceman",
+            "wrong_answers": [
+                "porter",
+                "channelize",
+                "mailman"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : mailman",
+            "category": "occupations",
+            "corect": "carrier",
+            "wrong_answers": [
+                "washer",
+                "powell",
+                "pullman_porter"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : ambassador",
+            "category": "occupations",
+            "corect": "embassador",
+            "wrong_answers": [
+                "colin_powell",
+                "airplane_pilot",
+                "adjudicate"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : voluntary",
+            "category": "occupations",
+            "corect": "military_volunteer",
+            "wrong_answers": [
+                "unpaid_worker",
+                "domestic",
+                "actor"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : worker",
+            "category": "occupations",
+            "corect": "proletarian",
+            "wrong_answers": [
+                "prole",
+                "record-keeper",
+                "estimate"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : fisher",
+            "category": "occupations",
+            "corect": "martes_pennanti",
+            "wrong_answers": [
+                "cole_porter",
+                "point",
+                "assistant"
+            ]
+        },
+        {
+            "question": "Select the synonym for  : editor",
+            "category": "occupations",
+            "corect": "editor_program",
+            "wrong_answers": [
+                "shop_assistant",
+                "old-timer",
+                "supporter"
+            ]
+        },
+        {
+            "question": "Any Of Numerous Agile Ruminants Related To Sheep But Having A Beard And Straight Horns",
+            "category": "animals",
+            "corect": "goat",
+            "wrong_answers": [
+                "salmon",
+                "cat",
+                "python"
+            ]
+        },
+        {
+            "question": "Young Sheep",
+            "category": "animals",
+            "corect": "lamb",
+            "wrong_answers": [
+                "rat",
+                "bear",
+                "cat"
+            ]
+        },
+        {
+            "question": "Any Of Various Large Keen-Sighted Diurnal Birds Of Prey Noted For Their Broad Wings And Strong Soaring Flight",
+            "category": "animals",
+            "corect": "eagle",
+            "wrong_answers": [
+                "pet",
+                "goat",
+                "pet"
+            ]
+        },
+        {
+            "question": "Distinguished From Bovidae By The Male'S Having Solid Deciduous Antlers",
+            "category": "animals",
+            "corect": "deer",
+            "wrong_answers": [
+                "deer",
+                "rat",
+                "giant"
+            ]
+        },
+        {
+            "question": "Feline Mammal Usually Having Thick Soft Fur And No Ability To Roar: Domestic Cats; Wildcats",
+            "category": "animals",
+            "corect": "cat",
+            "wrong_answers": [
+                "snake",
+                "cattle",
+                "turkey"
+            ]
+        },
+        {
+            "question": "Any Of Various Mostly Cold-Blooded Aquatic Vertebrates Usually Having Scales And Breathing Through Gills",
+            "category": "animals",
+            "corect": "fish",
+            "wrong_answers": [
+                "bull",
+                "creature",
+                "horse"
+            ]
+        },
+        {
+            "question": "Diurnal Insect Typically Having A Slender Body With Knobbed Antennae And Broad Colorful Wings",
+            "category": "animals",
+            "corect": "butterfly",
+            "wrong_answers": [
+                "deer",
+                "bat",
+                "sheep"
+            ]
+        },
+        {
+            "question": "Short-Legged Flightless Birds Of Cold Southern Especially Antarctic Regions Having Webbed Feet And Wings Modified As Flippers",
+            "category": "animals",
+            "corect": "penguin",
+            "wrong_answers": [
+                "spider",
+                "monkey",
+                "rat"
+            ]
+        },
+        {
+            "question": "A Living Organism Characterized By Voluntary Movement",
+            "category": "animals",
+            "corect": "creature",
+            "wrong_answers": [
+                "gnu",
+                "penguin",
+                "dog"
+            ]
+        },
+        {
+            "question": "Solid-Hoofed Herbivorous Quadruped Domesticated Since Prehistoric Times",
+            "category": "animals",
+            "corect": "horse",
+            "wrong_answers": [
+                "penguin",
+                "gnu",
+                "camel"
+            ]
+        },
+        {
+            "question": "Large African Antelope Having A Head With Horns Like An Ox And A Long Tufted Tail",
+            "category": "animals",
+            "corect": "gnu",
+            "wrong_answers": [
+                "dog",
+                "creature",
+                "penguin"
+            ]
+        },
+        {
+            "question": "Large Gallinaceous Bird With Fan-Shaped Tail; Widely Domesticated For Food",
+            "category": "animals",
+            "corect": "turkey",
+            "wrong_answers": [
+                "worm",
+                "creature",
+                "lion"
+            ]
+        },
+        {
+            "question": "Large Shaggy-Haired Brown Bison Of North American Plains",
+            "category": "animals",
+            "corect": "buffalo",
+            "wrong_answers": [
+                "pet",
+                "buffalo",
+                "cow"
+            ]
+        },
+        {
+            "question": "Any Of Numerous Small Rodents Typically Resembling Diminutive Rats Having Pointed Snouts And Small Ears On Elongated Bodies With Slender Usually Hairless Tails",
+            "category": "animals",
+            "corect": "mouse",
+            "wrong_answers": [
+                "shark",
+                "lion",
+                "deer"
+            ]
+        },
+        {
+            "question": "Predatory Arachnid With Eight Legs, Two Poison Fangs, Two Feelers, And Usually Two Silk-Spinning Organs At The Back End Of The Body; They Spin Silk To Make Cocoons For Eggs Or Traps For Prey",
+            "category": "animals",
+            "corect": "spider",
+            "wrong_answers": [
+                "mouse",
+                "fox",
+                "pig"
+            ]
+        },
+        {
+            "question": "A Young Dog",
+            "category": "animals",
+            "corect": "puppy",
+            "wrong_answers": [
+                "buffalo",
+                "bat",
+                "cat"
+            ]
+        },
+        {
+            "question": "Warm-Blooded Egg-Laying Vertebrates Characterized By Feathers And Forelimbs Modified As Wings",
+            "category": "animals",
+            "corect": "bird",
+            "wrong_answers": [
+                "python",
+                "bird",
+                "jaguar"
+            ]
+        },
+        {
+            "question": "Young Bird Especially Of Domestic Fowl",
+            "category": "animals",
+            "corect": "chick",
+            "wrong_answers": [
+                "bee",
+                "pet",
+                "worm"
+            ]
+        },
+        {
+            "question": "General Term For Any Insect Or Similar Creeping Or Crawling Invertebrate",
+            "category": "animals",
+            "corect": "bug",
+            "wrong_answers": [
+                "eagle",
+                "creature",
+                "eagle"
+            ]
+        },
+        {
+            "question": "Five-Toed Pachyderm",
+            "category": "animals",
+            "corect": "elephant",
+            "wrong_answers": [
+                "buffalo",
+                "poultry",
+                "lamb"
+            ]
+        },
+        {
+            "question": "Social Insect Living In Organized Colonies; Characteristically The Males And Fertile Queen Have Wings During Breeding Season; Wingless Sterile Females Are The Workers",
+            "category": "animals",
+            "corect": "ant",
+            "wrong_answers": [
+                "creature",
+                "cow",
+                "bug"
+            ]
+        },
+        {
+            "question": "Any Of Various Predatory Carnivorous Canine Mammals Of North America And Eurasia That Usually Hunt In Packs",
+            "category": "animals",
+            "corect": "wolf",
+            "wrong_answers": [
+                "penguin",
+                "turkey",
+                "salmon"
+            ]
+        },
+        {
+            "question": "A Domesticated Gallinaceous Bird Thought To Be Descended From The Red Jungle Fowl",
+            "category": "animals",
+            "corect": "poultry",
+            "wrong_answers": [
+                "horse",
+                "cattle",
+                "dog"
+            ]
+        },
+        {
+            "question": "Large Old World Boas",
+            "category": "animals",
+            "corect": "python",
+            "wrong_answers": [
+                "deer",
+                "rat",
+                "creature"
+            ]
+        },
+        {
+            "question": "Any Of Various Large Food And Game Fishes Of Northern Waters; Usually Migrate From Salt To Fresh Water To Spawn",
+            "category": "animals",
+            "corect": "salmon",
+            "wrong_answers": [
+                "fish",
+                "giant",
+                "butterfly"
+            ]
+        },
+        {
+            "question": "Nocturnal Mouselike Mammal With Forelimbs Modified To Form Membranous Wings And Anatomical Adaptations For Echolocation By Which They Navigate",
+            "category": "animals",
+            "corect": "bat",
+            "wrong_answers": [
+                "deer",
+                "python",
+                "lamb"
+            ]
+        },
+        {
+            "question": "Cud-Chewing Mammal Used As A Draft Or Saddle Animal In Desert Regions",
+            "category": "animals",
+            "corect": "camel",
+            "wrong_answers": [
+                "eagle",
+                "monkey",
+                "elephant"
+            ]
+        },
+        {
+            "question": "Any Of Various Long-Tailed Rodents Similar To But Larger Than A Mouse",
+            "category": "animals",
+            "corect": "rat",
+            "wrong_answers": [
+                "gnu",
+                "bull",
+                "cattle"
+            ]
+        },
+        {
+            "question": "Domestic Swine",
+            "category": "animals",
+            "corect": "pig",
+            "wrong_answers": [
+                "mouse",
+                "bee",
+                "chick"
+            ]
+        },
+        {
+            "question": "Any Of Numerous Relatively Small Elongated Soft-Bodied Animals Especially Of The Phyla Annelida And Chaetognatha And Nematoda And Nemertea And Platyhelminthes; Also Many Insect Larvae",
+            "category": "animals",
+            "corect": "worm",
+            "wrong_answers": [
+                "poultry",
+                "fish",
+                "lion"
+            ]
+        },
+        {
+            "question": "A Large Spotted Feline Of Tropical America Similar To The Leopard; In Some Classifications Considered A Member Of The Genus Felis",
+            "category": "animals",
+            "corect": "jaguar",
+            "wrong_answers": [
+                "salmon",
+                "chick",
+                "rabbit"
+            ]
+        },
+        {
+            "question": "Limbless Scaly Elongate Reptile; Some Are Venomous",
+            "category": "animals",
+            "corect": "snake",
+            "wrong_answers": [
+                "worm",
+                "pig",
+                "fish"
+            ]
+        },
+        {
+            "question": "Domesticated Bovine Animals As A Group Regardless Of Sex Or Age; ; ; - Bible",
+            "category": "animals",
+            "corect": "cattle",
+            "wrong_answers": [
+                "salmon",
+                "horse",
+                "pet"
+            ]
+        },
+        {
+            "question": "A Domesticated Animal Kept For Companionship Or Amusement",
+            "category": "animals",
+            "corect": "pet",
+            "wrong_answers": [
+                "bee",
+                "camel",
+                "jaguar"
+            ]
+        },
+        {
+            "question": "Uncastrated Adult Male Of Domestic Cattle",
+            "category": "animals",
+            "corect": "bull",
+            "wrong_answers": [
+                "wolf",
+                "ant",
+                "camel"
+            ]
+        },
+        {
+            "question": "Any Of Various Burrowing Animals Of The Family Leporidae Having Long Ears And Short Tails; Some Domesticated And Raised For Pets Or Food",
+            "category": "animals",
+            "corect": "rabbit",
+            "wrong_answers": [
+                "pig",
+                "eagle",
+                "snake"
+            ]
+        },
+        {
+            "question": "Any Of Various Tailless Stout-Bodied Amphibians With Long Hind Limbs For Leaping; Semiaquatic And Terrestrial Species",
+            "category": "animals",
+            "corect": "frog",
+            "wrong_answers": [
+                "bug",
+                "bull",
+                "cow"
+            ]
+        },
+        {
+            "question": "Any Of Numerous Elongate Mostly Marine Carnivorous Fishes With Heterocercal Caudal Fins And Tough Skin Covered With Small Toothlike Scales",
+            "category": "animals",
+            "corect": "shark",
+            "wrong_answers": [
+                "giant",
+                "bee",
+                "wolf"
+            ]
+        },
+        {
+            "question": "Alert Carnivorous Mammal With Pointed Muzzle And Ears And A Bushy Tail; Most Are Predators That Do Not Hunt In Packs",
+            "category": "animals",
+            "corect": "fox",
+            "wrong_answers": [
+                "shark",
+                "lion",
+                "pig"
+            ]
+        },
+        {
+            "question": "Woolly Usually Horned Ruminant Mammal Related To The Goat",
+            "category": "animals",
+            "corect": "sheep",
+            "wrong_answers": [
+                "bee",
+                "cat",
+                "cat"
+            ]
+        },
+        {
+            "question": "Female Of Domestic Cattle:",
+            "category": "animals",
+            "corect": "cow",
+            "wrong_answers": [
+                "bird",
+                "creature",
+                "giant"
+            ]
+        },
+        {
+            "question": "A Member Of The Genus Canis (Probably Descended From The Common Wolf) That Has Been Domesticated By Man Since Prehistoric Times; Occurs In Many Breeds",
+            "category": "animals",
+            "corect": "dog",
+            "wrong_answers": [
+                "buffalo",
+                "creature",
+                "turkey"
+            ]
+        },
+        {
+            "question": "Any Creature Of Exceptional Size",
+            "category": "animals",
+            "corect": "giant",
+            "wrong_answers": [
+                "ant",
+                "dog",
+                "butterfly"
+            ]
+        },
+        {
+            "question": "Any Of Numerous Hairy-Bodied Insects Including Social And Solitary Species",
+            "category": "animals",
+            "corect": "bee",
+            "wrong_answers": [
+                "chick",
+                "horse",
+                "cattle"
+            ]
+        },
+        {
+            "question": "Small Wild Or Domesticated Web-Footed Broad-Billed Swimming Bird Usually Having A Depressed Body And Short Legs",
+            "category": "animals",
+            "corect": "duck",
+            "wrong_answers": [
+                "bat",
+                "pig",
+                "gnu"
+            ]
+        },
+        {
+            "question": "Massive Plantigrade Carnivorous Or Omnivorous Mammals With Long Shaggy Coats And Strong Claws",
+            "category": "animals",
+            "corect": "bear",
+            "wrong_answers": [
+                "snake",
+                "cat",
+                "bat"
+            ]
+        },
+        {
+            "question": "Any Of Various Long-Tailed Primates (Excluding The Prosimians)",
+            "category": "animals",
+            "corect": "monkey",
+            "wrong_answers": [
+                "cow",
+                "cat",
+                "poultry"
+            ]
+        },
+        {
+            "question": "Large Gregarious Predatory Feline Of Africa And India Having A Tawny Coat With A Shaggy Mane In The Male",
+            "category": "animals",
+            "corect": "lion",
+            "wrong_answers": [
+                "cat",
+                "penguin",
+                "buffalo"
+            ]
+        }
+    ],
+    "input": [
+        {
+            "question": "Any Of Numerous Agile Ruminants Related To Sheep But Having A Beard And Straight Horns",
+            "category": "animals",
+            "corect": "goat"
+        },
+        {
+            "question": "Young Sheep",
+            "category": "animals",
+            "corect": "lamb"
+        },
+        {
+            "question": "Any Of Various Large Keen-Sighted Diurnal Birds Of Prey Noted For Their Broad Wings And Strong Soaring Flight",
+            "category": "animals",
+            "corect": "eagle"
+        },
+        {
+            "question": "Distinguished From Bovidae By The Male'S Having Solid Deciduous Antlers",
+            "category": "animals",
+            "corect": "deer"
+        },
+        {
+            "question": "Feline Mammal Usually Having Thick Soft Fur And No Ability To Roar: Domestic Cats; Wildcats",
+            "category": "animals",
+            "corect": "cat"
+        },
+        {
+            "question": "Any Of Various Mostly Cold-Blooded Aquatic Vertebrates Usually Having Scales And Breathing Through Gills",
+            "category": "animals",
+            "corect": "fish"
+        },
+        {
+            "question": "Diurnal Insect Typically Having A Slender Body With Knobbed Antennae And Broad Colorful Wings",
+            "category": "animals",
+            "corect": "butterfly"
+        },
+        {
+            "question": "Short-Legged Flightless Birds Of Cold Southern Especially Antarctic Regions Having Webbed Feet And Wings Modified As Flippers",
+            "category": "animals",
+            "corect": "penguin"
+        },
+        {
+            "question": "A Living Organism Characterized By Voluntary Movement",
+            "category": "animals",
+            "corect": "creature"
+        },
+        {
+            "question": "Solid-Hoofed Herbivorous Quadruped Domesticated Since Prehistoric Times",
+            "category": "animals",
+            "corect": "horse"
+        },
+        {
+            "question": "Large African Antelope Having A Head With Horns Like An Ox And A Long Tufted Tail",
+            "category": "animals",
+            "corect": "gnu"
+        },
+        {
+            "question": "Large Gallinaceous Bird With Fan-Shaped Tail; Widely Domesticated For Food",
+            "category": "animals",
+            "corect": "turkey"
+        },
+        {
+            "question": "Large Shaggy-Haired Brown Bison Of North American Plains",
+            "category": "animals",
+            "corect": "buffalo"
+        },
+        {
+            "question": "Any Of Numerous Small Rodents Typically Resembling Diminutive Rats Having Pointed Snouts And Small Ears On Elongated Bodies With Slender Usually Hairless Tails",
+            "category": "animals",
+            "corect": "mouse"
+        },
+        {
+            "question": "Predatory Arachnid With Eight Legs, Two Poison Fangs, Two Feelers, And Usually Two Silk-Spinning Organs At The Back End Of The Body; They Spin Silk To Make Cocoons For Eggs Or Traps For Prey",
+            "category": "animals",
+            "corect": "spider"
+        },
+        {
+            "question": "A Young Dog",
+            "category": "animals",
+            "corect": "puppy"
+        },
+        {
+            "question": "Warm-Blooded Egg-Laying Vertebrates Characterized By Feathers And Forelimbs Modified As Wings",
+            "category": "animals",
+            "corect": "bird"
+        },
+        {
+            "question": "Young Bird Especially Of Domestic Fowl",
+            "category": "animals",
+            "corect": "chick"
+        },
+        {
+            "question": "General Term For Any Insect Or Similar Creeping Or Crawling Invertebrate",
+            "category": "animals",
+            "corect": "bug"
+        },
+        {
+            "question": "Five-Toed Pachyderm",
+            "category": "animals",
+            "corect": "elephant"
+        },
+        {
+            "question": "Social Insect Living In Organized Colonies; Characteristically The Males And Fertile Queen Have Wings During Breeding Season; Wingless Sterile Females Are The Workers",
+            "category": "animals",
+            "corect": "ant"
+        },
+        {
+            "question": "Any Of Various Predatory Carnivorous Canine Mammals Of North America And Eurasia That Usually Hunt In Packs",
+            "category": "animals",
+            "corect": "wolf"
+        },
+        {
+            "question": "A Domesticated Gallinaceous Bird Thought To Be Descended From The Red Jungle Fowl",
+            "category": "animals",
+            "corect": "poultry"
+        },
+        {
+            "question": "Large Old World Boas",
+            "category": "animals",
+            "corect": "python"
+        },
+        {
+            "question": "Any Of Various Large Food And Game Fishes Of Northern Waters; Usually Migrate From Salt To Fresh Water To Spawn",
+            "category": "animals",
+            "corect": "salmon"
+        },
+        {
+            "question": "Nocturnal Mouselike Mammal With Forelimbs Modified To Form Membranous Wings And Anatomical Adaptations For Echolocation By Which They Navigate",
+            "category": "animals",
+            "corect": "bat"
+        },
+        {
+            "question": "Cud-Chewing Mammal Used As A Draft Or Saddle Animal In Desert Regions",
+            "category": "animals",
+            "corect": "camel"
+        },
+        {
+            "question": "Any Of Various Long-Tailed Rodents Similar To But Larger Than A Mouse",
+            "category": "animals",
+            "corect": "rat"
+        },
+        {
+            "question": "Domestic Swine",
+            "category": "animals",
+            "corect": "pig"
+        },
+        {
+            "question": "Any Of Numerous Relatively Small Elongated Soft-Bodied Animals Especially Of The Phyla Annelida And Chaetognatha And Nematoda And Nemertea And Platyhelminthes; Also Many Insect Larvae",
+            "category": "animals",
+            "corect": "worm"
+        },
+        {
+            "question": "A Large Spotted Feline Of Tropical America Similar To The Leopard; In Some Classifications Considered A Member Of The Genus Felis",
+            "category": "animals",
+            "corect": "jaguar"
+        },
+        {
+            "question": "Limbless Scaly Elongate Reptile; Some Are Venomous",
+            "category": "animals",
+            "corect": "snake"
+        },
+        {
+            "question": "Domesticated Bovine Animals As A Group Regardless Of Sex Or Age; ; ; - Bible",
+            "category": "animals",
+            "corect": "cattle"
+        },
+        {
+            "question": "A Domesticated Animal Kept For Companionship Or Amusement",
+            "category": "animals",
+            "corect": "pet"
+        },
+        {
+            "question": "Uncastrated Adult Male Of Domestic Cattle",
+            "category": "animals",
+            "corect": "bull"
+        },
+        {
+            "question": "Any Of Various Burrowing Animals Of The Family Leporidae Having Long Ears And Short Tails; Some Domesticated And Raised For Pets Or Food",
+            "category": "animals",
+            "corect": "rabbit"
+        },
+        {
+            "question": "Any Of Various Tailless Stout-Bodied Amphibians With Long Hind Limbs For Leaping; Semiaquatic And Terrestrial Species",
+            "category": "animals",
+            "corect": "frog"
+        },
+        {
+            "question": "Any Of Numerous Elongate Mostly Marine Carnivorous Fishes With Heterocercal Caudal Fins And Tough Skin Covered With Small Toothlike Scales",
+            "category": "animals",
+            "corect": "shark"
+        },
+        {
+            "question": "Alert Carnivorous Mammal With Pointed Muzzle And Ears And A Bushy Tail; Most Are Predators That Do Not Hunt In Packs",
+            "category": "animals",
+            "corect": "fox"
+        },
+        {
+            "question": "Woolly Usually Horned Ruminant Mammal Related To The Goat",
+            "category": "animals",
+            "corect": "sheep"
+        },
+        {
+            "question": "Female Of Domestic Cattle:",
+            "category": "animals",
+            "corect": "cow"
+        },
+        {
+            "question": "A Member Of The Genus Canis (Probably Descended From The Common Wolf) That Has Been Domesticated By Man Since Prehistoric Times; Occurs In Many Breeds",
+            "category": "animals",
+            "corect": "dog"
+        },
+        {
+            "question": "Any Creature Of Exceptional Size",
+            "category": "animals",
+            "corect": "giant"
+        },
+        {
+            "question": "Any Of Numerous Hairy-Bodied Insects Including Social And Solitary Species",
+            "category": "animals",
+            "corect": "bee"
+        },
+        {
+            "question": "Small Wild Or Domesticated Web-Footed Broad-Billed Swimming Bird Usually Having A Depressed Body And Short Legs",
+            "category": "animals",
+            "corect": "duck"
+        },
+        {
+            "question": "Massive Plantigrade Carnivorous Or Omnivorous Mammals With Long Shaggy Coats And Strong Claws",
+            "category": "animals",
+            "corect": "bear"
+        },
+        {
+            "question": "Any Of Various Long-Tailed Primates (Excluding The Prosimians)",
+            "category": "animals",
+            "corect": "monkey"
+        },
+        {
+            "question": "Large Gregarious Predatory Feline Of Africa And India Having A Tawny Coat With A Shaggy Mane In The Male",
+            "category": "animals",
+            "corect": "lion"
+        },
+        {
+            "question": "A Form Of Football Played With An Oval Ball",
+            "category": "sports",
+            "corect": "rugby"
+        },
+        {
+            "question": "A Football Game In Which Two Teams Of 11 Players Try To Kick Or Head A Ball Into The Opponents' Goal",
+            "category": "sports",
+            "corect": "soccer"
+        },
+        {
+            "question": "The Sport Of Traveling On A Bicycle Or Motorcycle",
+            "category": "sports",
+            "corect": "cycling"
+        },
+        {
+            "question": "A Game Played On A Large Open Course With 9 Or 18 Holes; The Object Is Use As Few Strokes As Possible In Playing All The Holes",
+            "category": "sports",
+            "corect": "golf"
+        },
+        {
+            "question": "The Act Of Participating In An Athletic Competition In Which You Must Jump",
+            "category": "sports",
+            "corect": "jumping"
+        },
+        {
+            "question": "The Sport Of Siting On The Back Of A Horse While Controlling Its Movements",
+            "category": "sports",
+            "corect": "riding"
+        },
+        {
+            "question": "A Game Played On A Court By Two Opposing Teams Of 5 Players; Points Are Scored By Throwing The Ball Through An Elevated Horizontal Hoop",
+            "category": "sports",
+            "corect": "basketball"
+        },
+        {
+            "question": "Fighting With The Fists",
+            "category": "sports",
+            "corect": "boxing"
+        },
+        {
+            "question": "Any Of Various Games Played With A Ball (Round Or Oval) In Which Two Teams Try To Kick Or Carry Or Propel The Ball Into Each Other'S Goal",
+            "category": "sports",
+            "corect": "football"
+        },
+        {
+            "question": "A Ball Game Played With A Bat And Ball Between Two Teams Of Nine Players; Teams Take Turns At Bat Trying To Score Runs",
+            "category": "sports",
+            "corect": "baseball"
+        },
+        {
+            "question": "The Sport Of Engaging In Contests Of Speed",
+            "category": "sports",
+            "corect": "racing"
+        },
+        {
+            "question": "The Sport Of Riding A Surfboard Toward The Shore On The Crest Of A Wave",
+            "category": "sports",
+            "corect": "surfing"
+        },
+        {
+            "question": "The Sport Of Gliding On Skates",
+            "category": "sports",
+            "corect": "skating"
+        },
+        {
+            "question": "An Active Diversion Requiring Physical Exertion And Competition",
+            "category": "sports",
+            "corect": "sport"
+        },
+        {
+            "question": "A Game In Which Two Teams Hit An Inflated Ball Over A High Net Using Their Hands",
+            "category": "sports",
+            "corect": "volleyball"
+        },
+        {
+            "question": "The Act Of Swimming; :",
+            "category": "sports",
+            "corect": "swimming"
+        },
+        {
+            "question": "A Game Played With Rackets By Two Or Four Players Who Hit A Ball Back And Forth Over A Net That Divides The Court",
+            "category": "sports",
+            "corect": "tennis"
+        },
+        {
+            "question": "A Sport In Which Participants Must Travel On Skis",
+            "category": "sports",
+            "corect": "skiing"
+        },
+        {
+            "question": "An Active Diversion Requiring Physical Exertion And Competition",
+            "category": "sports",
+            "corect": "athletics"
+        },
+        {
+            "question": "The Act Of Someone Who Fishes As A Diversion",
+            "category": "sports",
+            "corect": "fishing"
+        }
+    ],
+    "translate": [
+        {
+            "question": "Translate the word :rugby",
+            "category": "sports",
+            "corect": "rugby"
+        },
+        {
+            "question": "Translate the word :soccer",
+            "category": "sports",
+            "corect": "fotbal"
+        },
+        {
+            "question": "Translate the word :cycling",
+            "category": "sports",
+            "corect": "ciclism"
+        },
+        {
+            "question": "Translate the word :golf",
+            "category": "sports",
+            "corect": "golf"
+        },
+        {
+            "question": "Translate the word :jumping",
+            "category": "sports",
+            "corect": "s\u00c4\u0192rituri"
+        },
+        {
+            "question": "Translate the word :riding",
+            "category": "sports",
+            "corect": "echitatie"
+        },
+        {
+            "question": "Translate the word :basketball",
+            "category": "sports",
+            "corect": "baschet"
+        },
+        {
+            "question": "Translate the word :boxing",
+            "category": "sports",
+            "corect": "box"
+        },
+        {
+            "question": "Translate the word :football",
+            "category": "sports",
+            "corect": "fotbal"
+        },
+        {
+            "question": "Translate the word :baseball",
+            "category": "sports",
+            "corect": "baseball"
+        },
+        {
+            "question": "Translate the word :racing",
+            "category": "sports",
+            "corect": "curse"
+        },
+        {
+            "question": "Translate the word :surfing",
+            "category": "sports",
+            "corect": "surfing"
+        },
+        {
+            "question": "Translate the word :skating",
+            "category": "sports",
+            "corect": "patinaj"
+        },
+        {
+            "question": "Translate the word :sport",
+            "category": "sports",
+            "corect": "sport"
+        },
+        {
+            "question": "Translate the word :volleyball",
+            "category": "sports",
+            "corect": "volei"
+        },
+        {
+            "question": "Translate the word :swimming",
+            "category": "sports",
+            "corect": "\u00c3\u00aenot"
+        },
+        {
+            "question": "Translate the word :tennis",
+            "category": "sports",
+            "corect": "tenis"
+        },
+        {
+            "question": "Translate the word :skiing",
+            "category": "sports",
+            "corect": "schi"
+        },
+        {
+            "question": "Translate the word :athletics",
+            "category": "sports",
+            "corect": "atletism"
+        },
+        {
+            "question": "Translate the word :fishing",
+            "category": "sports",
+            "corect": "pescuit"
+        },
+        {
+            "question": "Translate the word :goat",
+            "category": "animals",
+            "corect": "capra"
+        },
+        {
+            "question": "Translate the word :lamb",
+            "category": "animals",
+            "corect": "miel"
+        },
+        {
+            "question": "Translate the word :eagle",
+            "category": "animals",
+            "corect": "vultur"
+        },
+        {
+            "question": "Translate the word :deer",
+            "category": "animals",
+            "corect": "cerb"
+        },
+        {
+            "question": "Translate the word :cat",
+            "category": "animals",
+            "corect": "pisica"
+        },
+        {
+            "question": "Translate the word :fish",
+            "category": "animals",
+            "corect": "pe\u00c8\u2122te"
+        },
+        {
+            "question": "Translate the word :butterfly",
+            "category": "animals",
+            "corect": "fluture"
+        },
+        {
+            "question": "Translate the word :penguin",
+            "category": "animals",
+            "corect": "pinguin"
+        },
+        {
+            "question": "Translate the word :creature",
+            "category": "animals",
+            "corect": "creatura"
+        },
+        {
+            "question": "Translate the word :horse",
+            "category": "animals",
+            "corect": "cal"
+        },
+        {
+            "question": "Translate the word :gnu",
+            "category": "animals",
+            "corect": "gnu"
+        },
+        {
+            "question": "Translate the word :turkey",
+            "category": "animals",
+            "corect": "curcan"
+        },
+        {
+            "question": "Translate the word :buffalo",
+            "category": "animals",
+            "corect": "bivol"
+        },
+        {
+            "question": "Translate the word :mouse",
+            "category": "animals",
+            "corect": "\u00c8\u2122oarece"
+        },
+        {
+            "question": "Translate the word :spider",
+            "category": "animals",
+            "corect": "p\u00c4\u0192ianjen"
+        },
+        {
+            "question": "Translate the word :puppy",
+            "category": "animals",
+            "corect": "catelus"
+        },
+        {
+            "question": "Translate the word :bird",
+            "category": "animals",
+            "corect": "pas\u00c4\u0192re"
+        },
+        {
+            "question": "Translate the word :chick",
+            "category": "animals",
+            "corect": "pui"
+        },
+        {
+            "question": "Translate the word :bug",
+            "category": "animals",
+            "corect": "g\u00c3\u00a2ndac"
+        },
+        {
+            "question": "Translate the word :elephant",
+            "category": "animals",
+            "corect": "elefant"
+        },
+        {
+            "question": "Translate the word :ant",
+            "category": "animals",
+            "corect": "furnic\u00c4\u0192"
+        },
+        {
+            "question": "Translate the word :wolf",
+            "category": "animals",
+            "corect": "luo"
+        },
+        {
+            "question": "Translate the word :poultry",
+            "category": "animals",
+            "corect": "p\u00c4\u0192s\u00c4\u0192ri de curte"
+        },
+        {
+            "question": "Translate the word :python",
+            "category": "animals",
+            "corect": "piton"
+        },
+        {
+            "question": "Translate the word :salmon",
+            "category": "animals",
+            "corect": "somon"
+        },
+        {
+            "question": "Translate the word :bat",
+            "category": "animals",
+            "corect": "liliac"
+        },
+        {
+            "question": "Translate the word :camel",
+            "category": "animals",
+            "corect": "c\u00c4\u0192mil\u00c4\u0192"
+        },
+        {
+            "question": "Translate the word :rat",
+            "category": "animals",
+            "corect": "\u00c5\u0178obolan"
+        },
+        {
+            "question": "Translate the word :pig",
+            "category": "animals",
+            "corect": "porc"
+        },
+        {
+            "question": "Translate the word :worm",
+            "category": "animals",
+            "corect": "vierme"
+        },
+        {
+            "question": "Translate the word :jaguar",
+            "category": "animals",
+            "corect": "jaguar"
+        },
+        {
+            "question": "Translate the word :snake",
+            "category": "animals",
+            "corect": "\u00c5\u0178arpe"
+        },
+        {
+            "question": "Translate the word :cattle",
+            "category": "animals",
+            "corect": "bovine"
+        },
+        {
+            "question": "Translate the word :pet",
+            "category": "animals",
+            "corect": "animale de companie"
+        },
+        {
+            "question": "Translate the word :bull",
+            "category": "animals",
+            "corect": "taur"
+        },
+        {
+            "question": "Translate the word :rabbit",
+            "category": "animals",
+            "corect": "iepure"
+        },
+        {
+            "question": "Translate the word :frog",
+            "category": "animals",
+            "corect": "broasca"
+        },
+        {
+            "question": "Translate the word :shark",
+            "category": "animals",
+            "corect": "rechin"
+        },
+        {
+            "question": "Translate the word :fox",
+            "category": "animals",
+            "corect": "vulpe"
+        },
+        {
+            "question": "Translate the word :sheep",
+            "category": "animals",
+            "corect": "oi"
+        },
+        {
+            "question": "Translate the word :cow",
+            "category": "animals",
+            "corect": "vaca"
+        },
+        {
+            "question": "Translate the word :dog",
+            "category": "animals",
+            "corect": "c\u00c3\u00a2ine"
+        },
+        {
+            "question": "Translate the word :giant",
+            "category": "animals",
+            "corect": "gigant"
+        },
+        {
+            "question": "Translate the word :bee",
+            "category": "animals",
+            "corect": "albina"
+        },
+        {
+            "question": "Translate the word :duck",
+            "category": "animals",
+            "corect": "ra\u00c8\u203a\u00c4\u0192"
+        },
+        {
+            "question": "Translate the word :bear",
+            "category": "animals",
+            "corect": "urs"
+        },
+        {
+            "question": "Translate the word :monkey",
+            "category": "animals",
+            "corect": "maimuta"
+        },
+        {
+            "question": "Translate the word :lion",
+            "category": "animals",
+            "corect": "leu"
+        }
+    ]
+}

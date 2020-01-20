@@ -27,10 +27,12 @@
             </div>
             <br>
             <div class="form-group">
-              <button (click)="submit(loginForm)" class="btn btn-info btn-md"
+              <!-- <button (click)="submit(loginForm)" class="btn btn-info btn-md"
                 [ngClass]="{'disabled': loginForm.invalid, 'loading': loading}">
                 Login
-              </button>
+              </button> -->
+              <a class="btn btn-primary generate btn btn-info btn-md" href="/home" role="button">Login</a>
+
             </div>
             <sui-message *ngIf="error" class="error">
               <div class="header">
