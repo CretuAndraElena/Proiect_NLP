@@ -1,14 +1,16 @@
 export class Test {
-  category: string;
+  type: boolean;
   questions: Array<Question>;
 }
 
 export class Question {
-  id: string;
-  answers: Array<Answer>;
+  body: string;
+  goodAnswer: string;
+  answers?: Array<Answer>;
+  category: string;
 }
 
 export class Answer {
   body: string;
-  isCorresc: boolean;
+  isCorrect: boolean;
 }

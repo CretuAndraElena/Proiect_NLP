@@ -7,9 +7,10 @@ import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-rounting.module';
 import { LoginModule } from './login/login.module';
 import { StatsModule } from './stats/stats.module';
+import { HomeComponent } from './home/components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
