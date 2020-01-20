@@ -30,6 +30,7 @@ input {
       width: 1em;
       display: inline-block;
       margin-right: 5px;
+      direction: rtl;
     }
 
     &:checked + .label-text:before {
@@ -133,4 +134,11 @@ input {
   100% {
     transform: scale(1);
   }
+}
+
+h4{
+  position: relative;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 25px;
 }

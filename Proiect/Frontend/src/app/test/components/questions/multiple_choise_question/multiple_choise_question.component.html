@@ -1,0 +1,35 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<div class="container">
+    <h4>
+    {{question.question}}
+    </h4>
+    <form #answer = "ngForm" (ngSubmit) = "onClickSubmit(answer.value)"> 
+      <div class="form-check">
+        <label>
+          <input type ="radio" name = "answer" value="{{asnwers[0]}}" ngModel> 
+          <span class="label-text">{{asnwers[0]}}</span>
+        </label>
+      </div>
+      <div class="form-check">
+        <label>
+          <input type="radio"name = "answer" value="{{asnwers[1]}}" ngModel> 
+          <span class="label-text">{{asnwers[1]}}</span>
+        </label>
+      </div>
+      <div class="form-check">
+        <label>
+          <input type="radio" name = "answer" value="{{asnwers[2]}}" ngModel>
+           <span class="label-text">{{asnwers[2]}}</span>
+        </label>
+      </div>
+      <div class="form-check">
+        <label>
+          <input type="radio" name = "answer" value="{{asnwers[3]}}" ngModel> <span class="label-text">{{asnwers[3]}}</span>
+        </label>
+      </div>
+      <button class="button" type="submit" >Next</button>
+    </form>
+  </div>

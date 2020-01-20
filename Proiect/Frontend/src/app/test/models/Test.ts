@@ -6,11 +6,6 @@ export class Test {
 export class Question {
   question: string;
   corect: string;
-  wrong_answers?: Array<Answer>;
+  wrong_answers?: Array<string>;
   category: string;
-}
-
-export class Answer {
-  body: string;
-  isCorrect: boolean;
 }

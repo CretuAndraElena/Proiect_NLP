@@ -14,13 +14,13 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
   {
-    path: 'generate',
-    component: TestGeneratorComponent,
+    path: 'generate/:term',
+    component: QuestionsComponent,
     canActivate: [AuthGuard]
   },
   {
     path: 'newtest',
-    component: QuestionsComponent
+    component: TestGeneratorComponent
     // canActivate: [AuthGuard],
   },
   { path: 'statistics', component: StatsComponent, canActivate: [AuthGuard] },
