@@ -1,0 +1,19 @@
+.description {
+    border-radius: 5px;
+    background: rgba(216, 221, 216, 0.5);
+    padding: 20px;
+    margin-top: 150px;
+  }
+
+.container{
+min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+min-height: 80vh; /* These two lines are counted as one :-)       */
+display: flex;
+align-items: center;
+background: rgba(216, 221, 216, 0.0);
+}
+
+.img-fluid{
+    margin-top: 100px;
+    margin-right: 50px;
+}
