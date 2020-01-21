@@ -26,9 +26,11 @@ export class QuestionsComponent implements OnInit {
     this.multiple_questions.type = 1;
     const mq = questions['multiple_choice'] as Array<Question>;
     const iq = questions['input'] as Array<Question>;
-
+    const tq = questions['translate'] as Array<Question>;
     this.multiple_questions.questions = this.shuffle(mq.filter(q => q.category === category));
-    this.input.questions = this.shuffle(iq.filter(q => q.category === category));
+    this.input.questions = iq.filter(q => q.category === category);
+    this.input.questions = this.input.questions.concat(tq.filter(q => q.category === category));
+    this.input.questions = this.shuffle(this.input.questions);
   }
 
   ngOnInit() {
