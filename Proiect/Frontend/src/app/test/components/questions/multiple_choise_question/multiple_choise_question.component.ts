@@ -21,6 +21,7 @@ export class MultipleChoiseQuestionComponent implements OnInit {
   ngOnInit() {
     this.asnwers = this.question.wrong_answers;
     this.asnwers.push(this.question.corect);
+    this.asnwers = this.shuffle(this.asnwers)
   }
 
   onClickSubmit() {
@@ -36,4 +37,19 @@ export class MultipleChoiseQuestionComponent implements OnInit {
 
     this.hasChecked = true;
   }
+
+  shuffle(arra1: any[]) {
+    let ctr = arra1.length;
+    let temp;
+    let index;
+
+    while (ctr > 0) {
+        index = Math.floor(Math.random() * ctr);
+        ctr--;
+        temp = arra1[ctr];
+        arra1[ctr] = arra1[index];
+        arra1[index] = temp;
+    }
+    return arra1;
+}
 }

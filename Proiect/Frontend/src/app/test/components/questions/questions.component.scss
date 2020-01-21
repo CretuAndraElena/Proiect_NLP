@@ -138,3 +138,24 @@ input {
     transform: scale(1);
   }
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+
+a:hover {
+  background-color:rgb(127, 13, 131);
+  color: black;
+}
+
+.previous {
+  font-family: cursive;
+  font-size: 30px;
+  color: rgb(127, 13, 131);
+  background: rgba(216, 221, 216, 0.0);
+}

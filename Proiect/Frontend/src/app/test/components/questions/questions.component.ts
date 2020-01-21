@@ -24,12 +24,11 @@ export class QuestionsComponent implements OnInit {
     this.route.params.subscribe(params => (category = params.term));
 
     this.multiple_questions.type = 1;
-    //this.input.type = 0;
     const mq = questions['multiple_choice'] as Array<Question>;
     const iq = questions['input'] as Array<Question>;
 
-    this.multiple_questions.questions = mq.filter(q => q.category === category);
-    this.input.questions = iq.filter(q => q.category === category);
+    this.multiple_questions.questions = this.shuffle(mq.filter(q => q.category === category));
+    this.input.questions = this.shuffle(iq.filter(q => q.category === category));
   }
 
   ngOnInit() {
@@ -44,5 +43,20 @@ export class QuestionsComponent implements OnInit {
     } else {
       this.questionMode = 'Multiple';
     }
+  }
+
+  shuffle(arra1: any[]) {
+      let ctr = arra1.length;
+      let temp;
+      let index;
+
+      while (ctr > 0) {
+          index = Math.floor(Math.random() * ctr);
+          ctr--;
+          temp = arra1[ctr];
+          arra1[ctr] = arra1[index];
+          arra1[index] = temp;
+      }
+      return arra1;
   }
 }
