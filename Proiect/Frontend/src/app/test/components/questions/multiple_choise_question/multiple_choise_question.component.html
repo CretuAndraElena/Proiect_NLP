@@ -3,33 +3,39 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <div class="container">
-    <h4>
+  <h4>
     {{question.question}}
-    </h4>
-    <form #answer = "ngForm" (ngSubmit) = "onClickSubmit(answer.value)"> 
-      <div class="form-check">
-        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
-          <input type ="radio" name = "answer" value="{{asnwers[0]}}" ngModel> 
-          <span class="label-text">{{asnwers[0]}}</span>
-        </label>
-      </div>
-      <div class="form-check">
-        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
-          <input type="radio"name = "answer" value="{{asnwers[1]}}" ngModel> 
-          <span class="label-text">{{asnwers[1]}}</span>
-        </label>
-      </div>
-      <div class="form-check">
-        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
-          <input type="radio" name = "answer" value="{{asnwers[2]}}" ngModel>
-           <span class="label-text">{{asnwers[2]}}</span>
-        </label>
-      </div>
-      <div class="form-check">
-        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
-          <input type="radio" name = "answer" value="{{asnwers[3]}}" ngModel> <span class="label-text">{{asnwers[3]}}</span>
-        </label>
-      </div>
-      <button class="button btn btn-info btn-md" type="submit">Next</button>
-    </form>
-  </div>
+  </h4>
+  <form #answer="ngForm" (ngSubmit)="onClickSubmit()">
+    <div class="form-check">
+      <label [class.green]="isCorrect && checked === 0 && hasChecked"
+        [class.red]="!isCorrect && checked === 0 && hasChecked">
+        <input type="radio" name="answer" value="{{asnwers[0]}}" ngModel (click)="checked = 0">
+        <span class="label-text">{{asnwers[0]}}</span>
+      </label>
+    </div>
+    <div class="form-check">
+      <label [class.green]="isCorrect && checked === 1 && hasChecked"
+        [class.red]="!isCorrect && checked === 1 && hasChecked">
+        <input type="radio" name="answer" value="{{asnwers[1]}}" ngModel (click)="checked = 1">
+        <span class="label-text">{{asnwers[1]}}</span>
+      </label>
+    </div>
+    <div class="form-check">
+      <label [class.green]="isCorrect && checked === 2 && hasChecked"
+        [class.red]="!isCorrect && checked === 2 && hasChecked">
+        <input type="radio" name="answer" value="{{asnwers[2]}}" ngModel (click)="checked = 2">
+        <span class="label-text">{{asnwers[2]}}</span>
+      </label>
+    </div>
+    <div class="form-check">
+      <label [class.green]="isCorrect && checked === 3 && hasChecked"
+        [class.red]="!isCorrect && checked === 3 && hasChecked">
+        <input type="radio" name="answer" value="{{asnwers[3]}}" ngModel (click)="checked = 3"> <span
+          class="label-text">{{asnwers[3]}}</span>
+      </label>
+    </div>
+    <button class="button btn btn-info btn-md" type="button" (click)="onCheck(answer.value)">Check</button>
+    <button class="button btn-next btn btn-info btn-md" [class.hidden]="!hasChecked" type="submit">Next</button>
+  </form>
+</div>

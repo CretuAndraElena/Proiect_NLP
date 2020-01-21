@@ -4,18 +4,18 @@
 
 <div class="container">
   <div class="row">
-
-    <!--team-1-->
     <div class="col-lg-4">
       <div class="our-team-main" #question>
-        <div *ngFor="let question of multiple_questions.questions">
-          <app-multiple-choise-question [question]=question></app-multiple-choise-question>
+        <div [class.hidden]="questionMode !== 'Multiple'" *ngFor="let question of multiple_questions.questions; let index = index;">
+          <app-multiple-choise-question [question]="question" (answered)="onAnswered()"
+            [class.hidden]="index !== currentQuestionM"></app-multiple-choise-question>
         </div>
-        <div *ngFor="let question of input.questions">
-          <app-input-questions [question]=question></app-input-questions>
+        <div [class.hidden]="questionMode !== 'Input'" *ngFor="let question of input.questions; let index = index;"
+          [class.hidden]="index !== currentQuestionI && questionMode !== 'Input'">
+          <app-input-questions [question]='question' (answered)="onAnswered()"
+            [class.hidden]="index !== currentQuestionI"></app-input-questions>
         </div>
       </div>
     </div>
   </div>
-  <!--team-1-->
 </div>

@@ -1,21 +1,50 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+.container {
+  border-radius: 5px;
+  background: rgba(216, 221, 216, 0.5);
+  padding: 20px;
+  margin-top: 150px;
+}
+
 body {
   padding: 50px;
 }
 
+#correct {
+  color: rgb(9, 122, 94);
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#wrong {
+  color: rgb(212, 59, 110);
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-next {
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
 input {
-  &[type="checkbox"], &[type="radio"] {
+  &[type="checkbox"],
+  &[type="radio"] {
     position: absolute;
     right: 9000px;
   }
 
   &[type="text"] {
+    border-radius: 5px;
+    width: 500px;
     margin: 5px;
     height: 30px;
     border: 0;
-    color: #999;
-    padding: 0;
+    padding: 3px;
     &:focus {
       outline: none;
     }
@@ -143,9 +172,7 @@ input {
   }
 }
 
-h4{
+h4 {
   position: relative;
-  cursor: pointer;
-  color: aliceblue;
   font-size: 25px;
 }

@@ -1,7 +1,6 @@
 import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 import * as questions from '../../../../assets/questions.json';
 import { Test, Question } from '../../models/Test';
-import { MultipleChoiseQuestionComponent } from './multiple_choise_question/multiple_choise_question.component.js';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,6 +10,9 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class QuestionsComponent implements OnInit {
   questions: any = questions;
+  currentQuestionM = 0;
+  currentQuestionI = -1;
+  questionMode: 'Multiple' | 'Input';
   public multiple_questions: Test = new Test();
   public input: Test = new Test();
   public translate: Test = new Test();
@@ -22,6 +24,7 @@ export class QuestionsComponent implements OnInit {
     this.route.params.subscribe(params => (category = params.term));
 
     this.multiple_questions.type = 1;
+    //this.input.type = 0;
     const mq = questions['multiple_choice'] as Array<Question>;
     const iq = questions['input'] as Array<Question>;
 
@@ -29,5 +32,17 @@ export class QuestionsComponent implements OnInit {
     this.input.questions = iq.filter(q => q.category === category);
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.questionMode = 'Multiple';
+  }
+
+  onAnswered() {
+    if (this.questionMode === 'Multiple') {
+      this.currentQuestionM++;
+      this.questionMode = 'Input';
+      this.currentQuestionI++;
+    } else {
+      this.questionMode = 'Multiple';
+    }
+  }
 }

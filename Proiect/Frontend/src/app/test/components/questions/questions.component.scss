@@ -4,10 +4,14 @@ body {
   padding: 50px;
 }
 
+.hidden {
+  display: none;
+}
+
 label {
   position: relative;
   cursor: pointer;
-  color: aliceblue;
+  //color: aliceblue;
   font-size: 30px;
 }
 

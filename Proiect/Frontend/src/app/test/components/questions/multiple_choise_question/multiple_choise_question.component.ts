@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Question } from 'src/app/test/models/Test';
 
 @Component({
@@ -8,9 +8,14 @@ import { Question } from 'src/app/test/models/Test';
 })
 export class MultipleChoiseQuestionComponent implements OnInit {
   @Input() question: Question;
+  @Output()
+  answered = new EventEmitter();
+  checked = -1;
+  hasChecked = false;
+
   public asnwers: Array<string>;
   public selected_answer: string;
-  isCorrect?: boolean;
+  isCorrect: boolean;
   constructor() {}
 
   ngOnInit() {
@@ -18,13 +23,17 @@ export class MultipleChoiseQuestionComponent implements OnInit {
     this.asnwers.push(this.question.corect);
   }
 
-  onClickSubmit(data: { answer: string; }) {
+  onClickSubmit() {
+    this.answered.emit();
+  }
+
+  onCheck(data: { answer: string }) {
     if (data.answer === this.question.corect) {
-      alert('Raspuns corect :D');
       this.isCorrect = true;
     } else {
-      alert('Raspuns gresit. :(\n Vei reusi data viitoare.');
       this.isCorrect = false;
     }
+
+    this.hasChecked = true;
   }
 }

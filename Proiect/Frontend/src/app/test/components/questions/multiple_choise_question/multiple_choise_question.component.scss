@@ -1,14 +1,38 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+
+.container {
+  border-radius: 5px;
+  background: rgba(216, 221, 216, 0.5);
+  padding: 20px;
+  margin-top: 150px;
+}
+
 body {
   padding: 50px;
+}
+
+.btn-next {
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 label {
   position: relative;
   cursor: pointer;
-  color: aliceblue;
+  //color: aliceblue;
   font-size: 30px;
+
+  &.red {
+    color: rgb(212, 59, 110);
+  }
+
+  &.green {
+    color: rgb(9, 122, 94);
+  }
 }
 
 input {
@@ -54,7 +78,7 @@ input {
       content: "\f10c";
       font-family: "FontAwesome";
       font-style: normal;
-      font-weight: normal;
+      //font-weight: normal;
       font-variant: normal;
       text-transform: none;
       line-height: 1;
@@ -80,6 +104,8 @@ input {
     }
   }
 }
+
+input[type="checkbox"]:checked+label{ color: red;} 
 
 /*Check box*/
 
@@ -138,6 +164,5 @@ input {
 
 h4{
   position: relative;
-  color: aliceblue;
   font-size: 25px;
 }
