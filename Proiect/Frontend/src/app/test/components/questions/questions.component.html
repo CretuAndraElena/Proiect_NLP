@@ -8,11 +8,14 @@
     <!--team-1-->
     <div class="col-lg-4">
       <div class="our-team-main" #question>
-          <div *ngFor="let question of multiple_questions.questions">
-            <app-multiple-choise-question [question]=question></app-multiple-choise-question>
-          </div>
-      </div>
+        <div *ngFor="let question of multiple_questions.questions">
+          <app-multiple-choise-question [question]=question></app-multiple-choise-question>
+        </div>
+        <div *ngFor="let question of input.questions">
+          <app-input-questions [question]=question></app-input-questions>
+        </div>
       </div>
     </div>
-    <!--team-1-->
   </div>
+  <!--team-1-->
+</div>

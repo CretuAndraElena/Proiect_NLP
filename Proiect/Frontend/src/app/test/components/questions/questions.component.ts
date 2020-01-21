@@ -9,7 +9,6 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './questions.component.html',
   styleUrls: ['./questions.component.scss']
 })
-
 export class QuestionsComponent implements OnInit {
   questions: any = questions;
   public multiple_questions: Test = new Test();
@@ -20,16 +19,15 @@ export class QuestionsComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) {
     let category = '';
-    this.route.params.subscribe( params => category = params.term);
+    this.route.params.subscribe(params => (category = params.term));
 
     this.multiple_questions.type = 1;
-    const a = questions['multiple_choice'] as Array<Question> ;
-    this.multiple_questions.questions = a.filter(q => q.category == category);
-    console.log(this.multiple_questions.questions[1].wrong_answers);
+    const mq = questions['multiple_choice'] as Array<Question>;
+    const iq = questions['input'] as Array<Question>;
+
+    this.multiple_questions.questions = mq.filter(q => q.category === category);
+    this.input.questions = iq.filter(q => q.category === category);
   }
 
-  ngOnInit() {
-
-  }
-
+  ngOnInit() {}
 }

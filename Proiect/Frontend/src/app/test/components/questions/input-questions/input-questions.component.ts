@@ -2,15 +2,16 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Question } from 'src/app/test/models/Test';
 
 @Component({
-  selector: 'app-multiple-choise-question',
-  templateUrl: './multiple_choise_question.component.html',
-  styleUrls: ['./multiple_choise_question.component.scss']
+  selector: 'app-input-questions',
+  templateUrl: './input-questions.component.html',
+  styleUrls: ['./input-questions.component.scss']
 })
-export class MultipleChoiseQuestionComponent implements OnInit {
+export class InputQuestionsComponent implements OnInit {
+
   @Input() question: Question;
   public asnwers: Array<string>;
   public selected_answer: string;
-  isCorrect?: boolean;
+  isChecked = false;
   constructor() {}
 
   ngOnInit() {
@@ -18,13 +19,13 @@ export class MultipleChoiseQuestionComponent implements OnInit {
     this.asnwers.push(this.question.corect);
   }
 
-  onClickSubmit(data: { answer: string; }) {
+  onClickSubmit(data) {
     if (data.answer === this.question.corect) {
       alert('Raspuns corect :D');
-      this.isCorrect = true;
     } else {
       alert('Raspuns gresit. :(\n Vei reusi data viitoare.');
-      this.isCorrect = false;
     }
+    this.isChecked = true;
   }
+
 }

@@ -8,28 +8,28 @@
     </h4>
     <form #answer = "ngForm" (ngSubmit) = "onClickSubmit(answer.value)"> 
       <div class="form-check">
-        <label>
+        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
           <input type ="radio" name = "answer" value="{{asnwers[0]}}" ngModel> 
           <span class="label-text">{{asnwers[0]}}</span>
         </label>
       </div>
       <div class="form-check">
-        <label>
+        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
           <input type="radio"name = "answer" value="{{asnwers[1]}}" ngModel> 
           <span class="label-text">{{asnwers[1]}}</span>
         </label>
       </div>
       <div class="form-check">
-        <label>
+        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
           <input type="radio" name = "answer" value="{{asnwers[2]}}" ngModel>
            <span class="label-text">{{asnwers[2]}}</span>
         </label>
       </div>
       <div class="form-check">
-        <label>
+        <label  ng-style="{ 'color' : (isCorrect.value) ? 'green' : 'red' }">
           <input type="radio" name = "answer" value="{{asnwers[3]}}" ngModel> <span class="label-text">{{asnwers[3]}}</span>
         </label>
       </div>
-      <button class="button" type="submit" >Next</button>
+      <button class="button btn btn-info btn-md" type="submit">Next</button>
     </form>
   </div>

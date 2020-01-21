@@ -4,17 +4,24 @@ body {
   padding: 50px;
 }
 
-label {
-  position: relative;
-  cursor: pointer;
-  color: aliceblue;
-  font-size: 30px;
-}
-
 input {
   &[type="checkbox"], &[type="radio"] {
     position: absolute;
     right: 9000px;
+  }
+
+  &[type="text"] {
+    margin: 5px;
+    height: 30px;
+    border: 0;
+    color: #999;
+    padding: 0;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #ddd;
+    }
   }
 
   &[type="checkbox"] {
@@ -138,6 +145,7 @@ input {
 
 h4{
   position: relative;
+  cursor: pointer;
   color: aliceblue;
   font-size: 25px;
 }

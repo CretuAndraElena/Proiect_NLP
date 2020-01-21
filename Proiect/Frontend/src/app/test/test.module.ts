@@ -6,9 +6,10 @@ import { TestGeneratorComponent } from './components/test-generator/test-generat
 import { QuestionsComponent } from './components/questions/questions.component';
 import { QuestionComponent } from './components/questions/question/question.component';
 import { MultipleChoiseQuestionComponent } from './components/questions/multiple_choise_question/multiple_choise_question.component';
+import { InputQuestionsComponent } from './components/questions/input-questions/input-questions.component';
 
 @NgModule({
   imports: [CommonModule, SharedModule, FormsModule],
-  declarations: [TestGeneratorComponent, QuestionsComponent, QuestionComponent, MultipleChoiseQuestionComponent]
+  declarations: [TestGeneratorComponent, QuestionsComponent, QuestionComponent, MultipleChoiseQuestionComponent, InputQuestionsComponent]
 })
 export class TestModule {}
