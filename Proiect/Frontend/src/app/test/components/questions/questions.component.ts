@@ -27,9 +27,13 @@ export class QuestionsComponent implements OnInit {
     const mq = questions['multiple_choice'] as Array<Question>;
     const iq = questions['input'] as Array<Question>;
     const tq = questions['translate'] as Array<Question>;
-    this.multiple_questions.questions = this.shuffle(mq.filter(q => q.category === category));
+    this.multiple_questions.questions = this.shuffle(
+      mq.filter(q => q.category === category)
+    );
     this.input.questions = iq.filter(q => q.category === category);
-    this.input.questions = this.input.questions.concat(tq.filter(q => q.category === category));
+    this.input.questions = this.input.questions.concat(
+      tq.filter(q => q.category === category)
+    );
     this.input.questions = this.shuffle(this.input.questions);
   }
 
@@ -48,17 +52,17 @@ export class QuestionsComponent implements OnInit {
   }
 
   shuffle(arra1: any[]) {
-      let ctr = arra1.length;
-      let temp;
-      let index;
+    let ctr = arra1.length;
+    let temp;
+    let index;
 
-      while (ctr > 0) {
-          index = Math.floor(Math.random() * ctr);
-          ctr--;
-          temp = arra1[ctr];
-          arra1[ctr] = arra1[index];
-          arra1[index] = temp;
-      }
-      return arra1;
+    while (ctr > 0) {
+      index = Math.floor(Math.random() * ctr);
+      ctr--;
+      temp = arra1[ctr];
+      arra1[ctr] = arra1[index];
+      arra1[index] = temp;
+    }
+    return arra1;
   }
 }

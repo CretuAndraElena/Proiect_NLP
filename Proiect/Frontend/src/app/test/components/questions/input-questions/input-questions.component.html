@@ -12,7 +12,7 @@
     </div>
     <button class="button btn btn-info btn-md" type="button" (click)="onCheck(answer.value)">Check</button>
     <button class="button btn-next btn btn-info btn-md" [class.hidden]="!hasChecked" type="submit">Next</button>
-    <p id="correct" *ngIf="hasChecked && isCorrect; else hasChecked && isWrong">Raspunsul este corect!</p>
-    <ng-template #isWrong><p id="wrong">Raspuns gresit!</p></ng-template>
+    <p id="correct" *ngIf="hasChecked && isCorrect; else hasChecked && isWrong">This is the correct answer!</p>
+    <ng-template #isWrong><p id="wrong">Wrong answer!</p></ng-template>
   </form>
 </div>

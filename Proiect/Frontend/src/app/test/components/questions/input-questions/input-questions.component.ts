@@ -18,8 +18,7 @@ export class InputQuestionsComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   onClickSubmit() {
     this.answered.emit();

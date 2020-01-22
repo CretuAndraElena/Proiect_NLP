@@ -6,7 +6,8 @@
   <div class="row">
     <div class="col-lg-4">
       <div class="our-team-main" #question>
-        <div [class.hidden]="questionMode !== 'Multiple'" *ngFor="let question of multiple_questions.questions; let index = index;">
+        <div [class.hidden]="questionMode !== 'Multiple'"
+          *ngFor="let question of multiple_questions.questions; let index = index;">
           <app-multiple-choise-question [question]="question" (answered)="onAnswered()"
             [class.hidden]="index !== currentQuestionM"></app-multiple-choise-question>
         </div>

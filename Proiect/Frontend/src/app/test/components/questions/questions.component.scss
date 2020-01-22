@@ -155,7 +155,12 @@ a:hover {
 
 .previous {
   font-family: cursive;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(127, 13, 131);
-  background: rgba(216, 221, 216, 0.0);
+  // background: rgba(216, 221, 216, 0.0);
+
+  &:hover {
+    color: rgb(127, 13, 131);
+    background-color: transparent;
+  }
 }

@@ -1407,7 +1407,7 @@
         {
             "question": "Translate the word :jumping",
             "category": "sports",
-            "corect": "s\u00c4\u0192rituri"
+            "corect": "sarituri"
         },
         {
             "question": "Translate the word :riding",
@@ -1462,7 +1462,7 @@
         {
             "question": "Translate the word :swimming",
             "category": "sports",
-            "corect": "\u00c3\u00aenot"
+            "corect": "inot"
         },
         {
             "question": "Translate the word :tennis",
@@ -1512,7 +1512,7 @@
         {
             "question": "Translate the word :fish",
             "category": "animals",
-            "corect": "pe\u00c8\u2122te"
+            "corect": "peste"
         },
         {
             "question": "Translate the word :butterfly",
@@ -1552,12 +1552,12 @@
         {
             "question": "Translate the word :mouse",
             "category": "animals",
-            "corect": "\u00c8\u2122oarece"
+            "corect": "soarece"
         },
         {
             "question": "Translate the word :spider",
             "category": "animals",
-            "corect": "p\u00c4\u0192ianjen"
+            "corect": "paianjen"
         },
         {
             "question": "Translate the word :puppy",
@@ -1567,7 +1567,7 @@
         {
             "question": "Translate the word :bird",
             "category": "animals",
-            "corect": "pas\u00c4\u0192re"
+            "corect": "pasare"
         },
         {
             "question": "Translate the word :chick",
@@ -1577,7 +1577,7 @@
         {
             "question": "Translate the word :bug",
             "category": "animals",
-            "corect": "g\u00c3\u00a2ndac"
+            "corect": "gandac"
         },
         {
             "question": "Translate the word :elephant",
@@ -1587,7 +1587,7 @@
         {
             "question": "Translate the word :ant",
             "category": "animals",
-            "corect": "furnic\u00c4\u0192"
+            "corect": "furnica"
         },
         {
             "question": "Translate the word :wolf",
@@ -1597,7 +1597,7 @@
         {
             "question": "Translate the word :poultry",
             "category": "animals",
-            "corect": "p\u00c4\u0192s\u00c4\u0192ri de curte"
+            "corect": "pasari de curte"
         },
         {
             "question": "Translate the word :python",
@@ -1617,12 +1617,12 @@
         {
             "question": "Translate the word :camel",
             "category": "animals",
-            "corect": "c\u00c4\u0192mil\u00c4\u0192"
+            "corect": "camila"
         },
         {
             "question": "Translate the word :rat",
             "category": "animals",
-            "corect": "\u00c5\u0178obolan"
+            "corect": "sobolan"
         },
         {
             "question": "Translate the word :pig",
@@ -1642,7 +1642,7 @@
         {
             "question": "Translate the word :snake",
             "category": "animals",
-            "corect": "\u00c5\u0178arpe"
+            "corect": "sarpe"
         },
         {
             "question": "Translate the word :cattle",
@@ -1692,7 +1692,7 @@
         {
             "question": "Translate the word :dog",
             "category": "animals",
-            "corect": "c\u00c3\u00a2ine"
+            "corect": "caine"
         },
         {
             "question": "Translate the word :giant",
@@ -1707,7 +1707,7 @@
         {
             "question": "Translate the word :duck",
             "category": "animals",
-            "corect": "ra\u00c8\u203a\u00c4\u0192"
+            "corect": "rata"
         },
         {
             "question": "Translate the word :bear",
