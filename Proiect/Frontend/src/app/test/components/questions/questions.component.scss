@@ -16,7 +16,8 @@ label {
 }
 
 input {
-  &[type="checkbox"], &[type="radio"] {
+  &[type="checkbox"],
+  &[type="radio"] {
     position: absolute;
     right: 9000px;
   }
@@ -142,14 +143,12 @@ input {
 a {
   text-decoration: none;
   display: inline-block;
-  float: left;
   padding: 10px;
   margin-top: 10px;
-  
 }
 
 a:hover {
-  background-color:rgb(127, 13, 131);
+  background-color: rgb(127, 13, 131);
   color: black;
 }
 
